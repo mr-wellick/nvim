@@ -4,5 +4,6 @@
 
 ## TODO
 
-- figure out why prettier formats lua files oddly (`lua/core/pckr.lua`)
 - install prettier
+- install fold manager or create own plugin for this
+- fix opening windows in split view

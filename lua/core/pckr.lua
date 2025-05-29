@@ -10,7 +10,6 @@ end
 
 bootstrap_pckr()
 
--- todo: figure out why prettier formats lua files oddly
 -- pckr commands: https://github.com/lewis6991/pckr.nvim?tab=readme-ov-file#commands
 require('pckr').add{ 
   -- lsp config taken from: https://lsp-zero.netlify.app/docs/getting-started.html#installing

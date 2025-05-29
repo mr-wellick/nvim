@@ -40,3 +40,7 @@ vim.g.netrw_altv = 1 -- open files to left side
 -- not sure on these options. need to read more about them
 -- vim.g.netrw_keepdir = 0 -- dont change directory when openning files
 -- vim.g.netrw_chgwin = 1 -- dont change directory when switching windows
+
+-- creating folds
+vim.opt.foldenable = true
+vim.opt.foldmethod = "manual"
