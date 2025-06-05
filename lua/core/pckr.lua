@@ -34,4 +34,9 @@ require('pckr').add{
 
   -- github
   "tpope/vim-fugitive";
+
+  -- formatters
+  -- npm install -g prettier
+  'mhartington/formatter.nvim';
 }
+
