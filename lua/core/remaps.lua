@@ -1,6 +1,6 @@
 local esc = "<Esc>"
 local opts = {
-    noremap = true
+	noremap = true,
 }
 
 -- remaps
