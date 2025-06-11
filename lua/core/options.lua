@@ -45,3 +45,6 @@ vim.g.netrw_altv = 1 -- open files to left side
 -- creating folds
 vim.opt.foldenable = true
 vim.opt.foldmethod = "manual"
+
+-- mouse input
+vim.opt.mouse = a
