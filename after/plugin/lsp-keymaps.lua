@@ -31,3 +31,13 @@ vim.api.nvim_create_autocmd("LspAttach", {
 		vim.keymap.set("n", "<leader>e", vim.diagnostic.open_float, opts)
 	end,
 })
+
+local border = "rounded"
+
+vim.lsp.handlers["textDocument/hover"] = vim.lsp.with(vim.lsp.handlers.hover, { border = border })
+
+vim.lsp.handlers["textDocument/signatureHelp"] = vim.lsp.with(vim.lsp.handlers.signature_help, { border = border })
+
+vim.diagnostic.config({
+	float = { border = border },
+})
